@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Project-specific ──────────────────────────────────────────
+# Data tracked by DVC, not Git
+data/
+
+# Generated figures
+reports/figures/
+
+# DVC internals
+.dvc/cache/
+.dvc/tmp/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
