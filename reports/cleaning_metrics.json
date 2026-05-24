@@ -1,0 +1,22 @@
+{
+  "raw_rows": 1000098,
+  "raw_cols": 54,
+  "dropped_empty_cols": 8,
+  "dropped_col_names": [
+    "AlarmImmobiliser",
+    "TrackingDevice",
+    "NewVehicle",
+    "WrittenOff",
+    "Rebuilt",
+    "Converted",
+    "CrossBorder",
+    "NumberOfVehiclesInFleet"
+  ],
+  "removed_zero_premium_rows": 381922,
+  "categorical_cols_imputed": 27,
+  "claims_cap_value": 32628.32,
+  "claims_rows_capped": 619,
+  "clean_rows": 618176,
+  "clean_cols": 46,
+  "overall_loss_ratio": 0.592305
+}

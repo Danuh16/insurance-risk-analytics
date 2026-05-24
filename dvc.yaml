@@ -1,1 +1,21 @@
-stages: {}
+stages:
+  clean_data:
+    cmd: python src/data_cleaner.py
+    deps:
+      - data/insurance_data.txt
+      - src/data_cleaner.py
+    outs:
+      - data/insurance_data_cleaned.txt
+    metrics:
+      - reports/cleaning_metrics.json:
+          cache: false
+
+  eda:
+    cmd: python notebooks/01_eda.py
+    deps:
+      - data/insurance_data_cleaned.txt
+      - src/data_loader.py
+      - src/eda_utils.py
+    outs:
+      - reports/figures:
+          cache: false
