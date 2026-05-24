@@ -1,0 +1,4 @@
+[core]
+    autostaging = true
+[remote "localstorage"]
+    url = C:/Users/danait.hishe/acis-dvc-storage
