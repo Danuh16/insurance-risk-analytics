@@ -112,5 +112,5 @@ dvc push
 |------|----------|--------|
 | 1 – Git setup & EDA       | task-1 | ✅ Merged |
 | 2 – DVC data versioning   | task-2 | ✅ Merged |
-| 3 – Hypothesis Testing    | task-3 | ⏳ Next |
-| 4 – Predictive Modeling   | task-4 | ⏳ |
+| 3 – Hypothesis Testing    | task-3 | ✅ Merged |
+| 4 – Predictive Modeling   | task-4 | ✅ Merged |
